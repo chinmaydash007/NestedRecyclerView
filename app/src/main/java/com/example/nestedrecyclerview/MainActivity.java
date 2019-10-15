@@ -57,6 +57,7 @@ boolean isScrolling=false;
         childArrayList.add(new Child("SubItem 4","26"));
         childArrayList.add(new Child("SubItem 5","27"));
         childArrayList.add(new Child("SubItem 6","28"));
+        childArrayList.add(new Child("SubItem 6","28"));
         parentAdapter=new ParentAdapter(this,parentArrayList,childArrayList);
         parentRecyclerView.setLayoutManager(linearLayoutManager);
 
